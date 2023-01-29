@@ -1,12 +1,20 @@
 body {
-    background-color: #fbfbfb;
+    background-color: white;
 }
+
 
 #video {
     display: block;
     margin: 0 auto;
-    margin-top: 10em;
+    height:100%;
+    weight:100%;
+    /* margin-top: 10em; */
     animation: video-animatie 1.2s 1;
+}
+
+
+#video {
+bottom:400px;
 }
 
 @keyframes video-animatie {
@@ -18,15 +26,24 @@ div {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 0px;
+    /* margin-bottom: 900px; */
 }
 
 div img {
-    width: 150px;
+    width: 600px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     margin: 0 50px;
     animation: knop-animatie 1.2s 1;
+}
+
+#vikke{
+position: relative;    
+left:600px;
+    height:50%;
+    width:50%;
+    margin-left: 8em;
+    margin-top:100px;
 }
 
 @keyframes knop-animatie {
@@ -37,4 +54,8 @@ div img {
 
 div img:hover{
     transform: scale(1.2);    
+}
+
+#vikke{
+/* margin-bottom:500px; */
 }

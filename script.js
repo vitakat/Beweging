@@ -9,16 +9,16 @@ buttonMatig.addEventListener('click', speelMatig);
 buttonSlecht.addEventListener('click', speelSlecht);
 
 function speelMooi() {
-    video.src = "img/videos/mooi.mp4";
+    video.src = "img/poof.mp4";
     console.log('run mooi');
 }
 
 function speelMatig() {
-    video.src = "img/videos/matig.mp4";
+    video.src = "img/dansen.mp4";
     console.log('run matig');
 }
 
 function speelSlecht() {
-    video.src = "img/videos/slecht.mp4";
+    video.src = "img/zzz.mp4";
     console.log('sup slecht');
 }
